@@ -19,11 +19,11 @@ void compila2(char nomi[]){
         cin>>nomi;
 
     }
-bool confronto(char nomi[][20], char nomi2[]){
+bool confronto(char nomi[][20], char n[]){
     for (z=0;z<10;z++){
 
         for (int k = 0; k < 20; k++) {
-            if (nomi[z][k] != nomi2[k])
+            if (nomi[z][k] != n[k])
             {
                 break;
             }
@@ -34,8 +34,8 @@ bool confronto(char nomi[][20], char nomi2[]){
         }
     } return false;
 }
-void finale(char nomi[10][20], char nomi2[20]){
-    if (confronto(nomi, nomi2))
+void finale(char nomi[10][20], char n[20]){
+    if (confronto(nomi, n))
     {
         cout << z;
     }

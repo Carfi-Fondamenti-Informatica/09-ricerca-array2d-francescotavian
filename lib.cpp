@@ -1,4 +1,3 @@
-
 using namespace std;
 #include <iostream>
 #include "lib.h"
@@ -20,8 +19,6 @@ void compila2(char nomi[]){
         cin>>nomi;
 
     }
-
-
 bool confronto(char nomi[][20], char nomi2[]){
     for (z=0;z<10;z++){
 

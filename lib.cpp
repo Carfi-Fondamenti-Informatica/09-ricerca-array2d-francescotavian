@@ -17,7 +17,6 @@ void compila2(char nomi[]){
         nomi[k]=' ';
     }
         cin>>nomi;
-
     }
 bool confronto(char nomi[][20], char n[]){
     for (z=0;z<10;z++){

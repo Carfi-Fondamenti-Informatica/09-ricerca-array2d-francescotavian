@@ -1,4 +1,3 @@
-
 #ifndef ESERCITAZIONE_9_LIB_H
 #define ESERCITAZIONE_9_LIB_H
 void compila (char [10][20]);

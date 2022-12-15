@@ -8,6 +8,5 @@ int main() {
     compila2(nome);
     confronto(lista,nome);
     finale(lista,nome);
-
     return 0;
 }

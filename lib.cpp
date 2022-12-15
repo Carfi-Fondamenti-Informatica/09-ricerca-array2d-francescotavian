@@ -1,7 +1,7 @@
 using namespace std;
 #include <iostream>
 #include "lib.h"
-int z =0;
+int z = 0;
 void compila (char nomi[10][20]){
     for (int i= 0; i < 10; i++) {
         for (int k = 0; k < 20; k++) {
@@ -23,13 +23,13 @@ bool confronto(char nomi[][20], char n[]){
 
         for (int k = 0; k < 20; k++) {
             if (nomi[z][k] != n[k])
-            {
+            
                 break;
-            }
+            
             else if (k==19)
-            {
+            
                 return true;
-            }
+            
         }
     } return false;
 }

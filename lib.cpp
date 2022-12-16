@@ -12,7 +12,7 @@ void compila(char nomi[10][20]){
              cin>>nomi[i];
          }
          }
- void compila2(char nomi[]){
+ void compiladue(char nomi[]){
      for (int k=0;k<20;k++){
          nomi[k]=' ';
      }

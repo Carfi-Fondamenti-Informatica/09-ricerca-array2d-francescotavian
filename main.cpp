@@ -5,7 +5,7 @@ int main(){
 char liata[10][20];
     char nome[10];
     compila(lista);
-    compila2(nome);
+    compiladue(nome);
    confronto(lista,nome);
     finale(lista,nome);
     return 0;
